@@ -13,7 +13,7 @@
   --mainSpacing: 0.3rem
 }
 
-.text-titles {
+.text-title {
   font-family: 'Montserrat',
     sans-serif;
   font-weight: bold;
@@ -30,4 +30,28 @@ body {
     sans-serif !important;
   background: var(--mainGrey) !important;
   color: var(--mainBlack)
+}
+
+
+.main-link {
+  background: var(--primaryColor);
+  padding: 0.5rem 1rem;
+  color: var(--mainWhite);
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  outline: 2px solid var(--primaryColor);
+  outline-offset: 4px;
+  transition: var(--mainTransition);
+  border: none;
+  display: inline-block;
+
+}
+
+.main-link:hover {
+  background: var(--darkGrey);
+  text-decoration: none;
+  color: var(--primaryColor);
+  outline-color: var(--darkGrey);
+
+
 }
