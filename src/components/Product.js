@@ -29,6 +29,7 @@ export default function Product({ product }) {
                   <FaCartPlus
                     className="icon"
                     onClick={() => addToCart(product.id)}
+                    style={{ cursor: 'pointer' }}
                   />
                 </div>
               </div>
